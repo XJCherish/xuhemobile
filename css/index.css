@@ -1,4 +1,4 @@
-﻿/*幻灯*/
+/*幻灯*/
 .swiper-container {
 	position:relative;
 	overflow:hidden;
@@ -53,69 +53,303 @@
 
 
 
-/*首页*/
-.jingmi{ margin-top:2rem;}
-.jingmi .top h1{ font-size:1.4rem; color:#1ab4c3; line-height:2rem; text-align:center; font-weight:normal;}
-.jingmi .top p{ font-size:1rem; line-height:1.8rem; color:#666; width:24rem; margin:.5rem auto; }
-.jingmi .bottom{ width:100%; margin:1rem auto; }
-.jingmi .bottom dl{ width:6.5rem; height:8.25rem; float:left; overflow:hidden; text-align:center; margin:1rem 1.13rem;}
-.jingmi .bottom dl dt h1{ font-size:1rem; color:#555; font-weight:normal; line-height:2.5rem;}
- 
+/*index*/
+.jingmi {
+	margin-top: 2rem;
+}
+.jingmi .top h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+}
+.jingmi .top p {
+	font-size: 1rem;
+	line-height: 1.8rem;
+	color: #666;
+	width: 24rem;
+	margin: .5rem auto;
+}
+.jingmi .bottom {
+	width: 100%;
+	margin: 1rem auto;
+}
+.jingmi .bottom dl {
+	width: 6.5rem;
+	height: 8.25rem;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin: 1rem 1.13rem;
+}
+.jingmi .bottom dl dt h1 {
+	font-size: 1rem;
+	color: #555;
+	font-weight: normal;
+	line-height: 2.5rem;
+}
+.jingmi.ou .bottom {
+	width: 88%;
+	margin: 1rem auto;
+}
+.jingmi.ou .bottom dl {
+	margin: 1rem 2.6rem;
+}
+.guanjia {
+	margin-top: 2rem;
+}
+.guanjia .top h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+}
+.guanjia .bottom {
+	width: 100%;
+	margin: 1rem auto;
+}
+.guanjia .bottom dl {
+	width: 50%;
+	height: 11rem;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.guanjia .bottom dl dt {
+	position: absolute;
+	left: 0rem;
+	padding: 0 .5rem;
+	bottom: 1rem;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+.guanjia .bottom dl dt h1 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+}
+.guanjia .bottom dl dt p {
+	font-size: 0.8rem;
+}
+.online {
+	margin-top: 2rem;
+}
+.online .top h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+}
+.online li {
+	width: 24rem;
+	margin: 0 auto;
+}
+.online li .txt {
+	width: 21.95rem;
+	padding: .5rem 1rem;
+	height: 1.7rem;
+	border: 1px solid #cfcfcf;
+	font-size: 0.85rem;
+	margin: .5rem auto;
+}
+.online li .button {
+	width: 24rem;
+	height: 2.75rem;
+	background: #1ab4c3;
+	font-size: .85rem;
+	text-align: center;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+	margin: .5rem auto;
+}
+.online li .selectbox-wrapper {
+	width: 23.95rem;
+	border: 1px solid #dfdfdf;
+	margin-top: -3px;
+	background: #fff;
+	position: absolute;
+	z-index: 10000;
+	font-size: 0.85rem;
+	color: #666;
+}
+.online li .selectbox-wrapper ul li.selected {
+	background: #f3f3f3;
+	font-size: 0.85rem;
+	color: #333;
+}
+.online li .selectbox-wrapper ul li.current {
+	background: #f3f3f3;
+	color: #333;
+}
+.online li .selectbox-wrapper ul li {
+	width: 21.95rem;
+	padding: 0 1rem;
+	line-height: 2.75rem;
+	cursor: pointer;
+}
+.online li .selectbox {
+	border: none;
+	display: block;
+	color: #999;
+	font-size: .85rem;
+	width: 22rem;
+	height: 2.75rem;
+	padding: 0 1rem;
+	line-height: 2.75rem;
+	cursor: pointer;
+	background: url(../images/select.jpg) no-repeat;
+	-webkit-background-size: 24rem auto;
+	background-size: 24rem auto;
+	font-family: "Microsoft YaHei";
+}
 
-.jingmi.ou .bottom{ width:88%; margin:1rem auto;}
-.jingmi.ou .bottom dl{margin:1rem 2.6rem;}
-
-.guanjia{ margin-top:2rem;}
-.guanjia .top h1{ font-size:1.4rem; color:#1ab4c3; line-height:2rem; text-align:center; font-weight:normal;}
-
-.guanjia .bottom{ width:100%; margin:1rem auto; }
-.guanjia .bottom dl{ width:50%; height:11rem; overflow:hidden; position:relative; float:left; }
-.guanjia .bottom dl dt{ position:absolute;left:0rem; padding:0 .5rem; bottom:1rem; color:#fff; width:100%;  text-align:center;}
-.guanjia .bottom dl dt h1{ font-size:1rem; line-height:1.5rem; font-weight:normal;}
-.guanjia .bottom dl dt p{  font-size:0.8rem; }
-
-.online{ margin-top:2rem;}
-.online .top h1{ font-size:1.4rem; color:#1ab4c3; line-height:2rem; text-align:center; font-weight:normal;}
-.online li{ width:24rem; margin:0 auto;}
-.online li .txt{ width:21.95rem; padding:.5rem 1rem; height:1.7rem; border:1px solid #cfcfcf; font-size:0.85rem; margin:.5rem auto;}
-.online li .button{  width:24rem; height:2.75rem; background:#1ab4c3; font-size:.85rem; text-align:center; border:0; cursor:pointer; color:#fff; margin:.5rem auto;}
-
-.online li .selectbox-wrapper { width:23.95rem; border:1px solid #dfdfdf; margin-top:-3px; background:#fff; position:absolute;  z-index:10000; font-size:0.85rem; color:#666;}
-.online li .selectbox-wrapper ul li.selected { background:#f3f3f3;   font-size:0.85rem; color:#333;}
-.online li .selectbox-wrapper ul li.current { background:#f3f3f3; color:#333; }
-.online li .selectbox-wrapper ul li { width:21.95rem; padding:0 1rem;  line-height:2.75rem; cursor:pointer;}
-.online li .selectbox { border:none; display:block; color:#999; font-size:.85rem;  width:22rem; height:2.75rem; padding:0 1rem; line-height:2.75rem; cursor:pointer; background:url(../images/select.jpg) no-repeat; -webkit-background-size:24rem auto; background-size:24rem auto; font-family:"Microsoft YaHei"; }
-
-
-/*日本医疗*/
-.jixie{ width:100%; background:url(../images/jixie.jpg) no-repeat center top #f0f3f6; -webkit-background-size:100% auto;  background-size:100% auto;   }
-.jixie .top h1{ font-size:1.4rem; color:#1ab4c3; line-height:2rem; text-align:center; font-weight:normal;  margin-top:1.9rem;}
-.jixie .txt{ width:24rem; margin:0 auto; font-size:0.85rem; line-height:1.35rem; color:#666; padding:9rem 0 2rem 0;}
-.yiyuan{ margin-top:2rem;}
-.yiyuan .top h1{ font-size:1.4rem; color:#1ab4c3; line-height:2rem; text-align:center; font-weight:normal;}
-.yiyuan dl{ width:100%; overflow:hidden; margin-top:2.5rem;}
-.yiyuan dd{ width:100%; height:13.5rem; overflow:hidden; position:relative;}
-.yiyuan dd .jia{ position:absolute; bottom:2rem; right:0; background:#1ab4c3; color:#fff; width:7.25rem; height:3rem; text-align:center; font-size:0.75rem;}
-.yiyuan dd .jia p{ margin-top:.5rem;}
-.yiyuan dt{ width:24rem; margin:0  auto; overflow:hidden;}
-.yiyuan dt h1{ font-size:1.2rem; color:#333; line-height:2rem; font-weight:normal; margin-top:.5rem; text-align:center;}
-.yiyuan dt p{ font-size:1rem; line-height:1.6rem; color:#666; }
-.yiyuan dt a.lj{ display:block; width:24rem; background:#1ab4c3; line-height:3.25rem; text-align:center; font-size:1rem; color:#fff; margin-top:1rem;}
-
-.kang { background:#f0f3f6; overflow:hidden; width:100%; border-bottom:1px solid #e4e7e9;}
-.kang .pic{ width:10.88rem; float:left;}
-.kang ul{ width:13.65rem; color:#666; font-size:0.85rem; line-height:1.35rem; float:right; margin:2rem 1.5rem 0 0;}
-.kang ul h1{ font-size:1.4rem; color:#1ab4c3; font-weight:normal; line-height:2rem;}
-
-.about .top{ width:26rem; margin:2rem auto; text-align:center;}
-.about .top p{ font-size:1rem; line-height:1.8rem; color:#666; }
-.about .top .play{ width:18.1rem; margin:1rem auto;}
-
-.about .bottom dl dd{ width:50%; height:11rem; float:left;}
-
-.concata{ text-align:center;}
-.concata ul{ font-size:1rem; line-height:1.5rem; color:#1ab4c3; margin-top:1.25rem;}
-.concata p{ width:17.5rem; margin:2.4rem auto 0 auto;}
+/*japan*/
+.jixie {
+	width: 100%;
+	background: url(../images/jixie.jpg) no-repeat center top #f0f3f6;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.jixie .top h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 1.9rem;
+}
+.jixie .txt {
+	width: 24rem;
+	margin: 0 auto;
+	font-size: 0.85rem;
+	line-height: 1.35rem;
+	color: #666;
+	padding: 9rem 0 2rem 0;
+}
+.yiyuan {
+	margin-top: 2rem;
+}
+.yiyuan .top h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	line-height: 2rem;
+	text-align: center;
+	font-weight: normal;
+}
+.yiyuan dl {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 2.5rem;
+}
+.yiyuan dd {
+	width: 100%;
+	height: 13.5rem;
+	overflow: hidden;
+	position: relative;
+}
+.yiyuan dd .jia {
+	position: absolute;
+	bottom: 2rem;
+	right: 0;
+	background: #1ab4c3;
+	color: #fff;
+	width: 7.25rem;
+	height: 3rem;
+	text-align: center;
+	font-size: 0.75rem;
+}
+.yiyuan dd .jia p {
+	margin-top: .5rem;
+}
+.yiyuan dt {
+	width: 24rem;
+	margin: 0  auto;
+	overflow: hidden;
+}
+.yiyuan dt h1 {
+	font-size: 1.2rem;
+	color: #333;
+	line-height: 2rem;
+	font-weight: normal;
+	margin-top: .5rem;
+	text-align: center;
+}
+.yiyuan dt p {
+	font-size: 1rem;
+	line-height: 1.6rem;
+	color: #666;
+}
+.yiyuan dt a.lj {
+	display: block;
+	width: 24rem;
+	background: #1ab4c3;
+	line-height: 3.25rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+	margin-top: 1rem;
+}
+.kang {
+	background: #f0f3f6;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #e4e7e9;
+}
+.kang .pic {
+	width: 10.88rem;
+	float: left;
+}
+.kang ul {
+	width: 13.65rem;
+	color: #666;
+	font-size: 0.85rem;
+	line-height: 1.35rem;
+	float: right;
+	margin: 2rem 1.5rem 0 0;
+}
+.kang ul h1 {
+	font-size: 1.4rem;
+	color: #1ab4c3;
+	font-weight: normal;
+	line-height: 2rem;
+}
+.about .top {
+	width: 26rem;
+	margin: 2rem auto;
+	text-align: center;
+}
+.about .top p {
+	font-size: 1rem;
+	line-height: 1.8rem;
+	color: #666;
+}
+.about .top .play {
+	width: 18.1rem;
+	margin: 1rem auto;
+}
+.about .bottom dl dd {
+	width: 50%;
+	height: 11rem;
+	float: left;
+}
+.concata {
+	text-align: center;
+}
+.concata ul {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #1ab4c3;
+	margin-top: 1.25rem;
+}
+.concata p {
+	width: 17.5rem;
+	margin: 2.4rem auto 0 auto;
+}
  
  
  
